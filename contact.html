@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — JNE</title>
+  <meta name="description" content="Get in touch with the Nexora team — start a project, ask a question, or book a free strategy call.">
+  <link rel="icon" type="image" href="https://i.postimg.cc/KYb620Cz/Black-and-White-Corporate-MB-Initial-Logo-(1).png' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23155EEF'/%3E%3Ctext x='50' y='68' font-size='58' font-family='Arial' font-weight='800' fill='white' text-anchor='middle'%3EN%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="custom.css" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-nexora fixed-top">
+    <div class="container">
+      <a class="navbar-brand navbar-brand-custom" href="index.html">JNE<span>.</span></a>
+      <button class="navbar-toggler navbar-toggler-custom" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-1 mt-3 mt-lg-0">
+        <li class="nav-item"><a class="nav-link nav2 active"  href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link nav2" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link nav2" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link nav2" href="portfolio.html">IMAGES</a></li>
+          
+          
+          <li class="nav-item"><a class="nav-link nav2" href="contact.html">Contact</a></li>
+          <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+            <a href="contact.html" class="btn btn-primary btn-sm-custom w-100">Get Started</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <div class="container">
+      <h1 class="mb-3">Get In Touch</h1>
+      <div class="breadcrumb-custom">
+        <a href="index.html">Home</a> <span>/</span> <span class="active">Contact</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTACT INFO CARDS -->
+  <section class="section pb-0">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-4 reveal">
+          <div class="card-premium text-center">
+            <div class="icon-box icon-box-primary mx-auto mb-3"><i class="bi bi-geo-alt"></i></div>
+            <h3 class="card-title">Visit Us</h3>
+            <p class="mb-0">6/12 NARASIMMAPURAM PUTHIYA PAKUTHI,KUNIYAMUTHUR<br>COIMBATORE-641008</p>
+          </div>
+        </div>
+        <div class="col-md-4 reveal">
+          <div class="card-premium text-center">
+            <div class="icon-box icon-box-secondary mx-auto mb-3"><i class="bi bi-envelope"></i></div>
+            <h3 class="card-title">Email Us</h3>
+            <p class="mb-1">General inquiries:<br><a href="jnenterprisescbe08@gmail.com" class="text-primary-custom fw-semibold text-decoration-none">jnenterprisescbe08@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="col-md-4 reveal">
+          <div class="card-premium text-center">
+            <div class="icon-box icon-box-success mx-auto mb-3"><i class="bi bi-telephone"></i></div>
+            <h3 class="card-title">Call Us</h3>
+            <p class="mb-0"><br><a href="tel:+91-8778794377,9442292998" class="text-primary-custom fw-semibold text-decoration-none">+91-8778794377,+91-9442292998</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORM + MAP -->
+  <section class="section">
+    <div class="container">
+      <div class="row g-5 align-items-stretch">
+        <div class="col-lg-7 reveal">
+          <span class="eyebrow">Send a message</span>
+          <h2 class="section-title mb-4">Tell us about your project</h2>
+          <form action="https://formspree.io/f/xljrkonl" method="POST">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label class="form-label" for="fullName">Full Name</label>
+                <input type="text" class="form-control" id="fullName" required>
+                <div class="invalid-feedback">Please enter your name.</div>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label" for="workEmail">Work Email</label>
+                <input type="email" class="form-control" id="workEmail" required>
+                <div class="invalid-feedback">Please enter a valid email address.</div>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label" for="companyName">Company</label>
+                <input type="text" class="form-control" id="companyName">
+              </div>
+              <div class="col-12">
+                <label class="form-label" for="service">Service Needed</label>
+                <select class="form-select" id="service" required>
+                  <option value="" selected disabled>Select a service</option>
+                  <option>INDUSTRIAL PAINTING</option>
+                  <option>VALVE PAINTING</option>
+                  <option>PUMP PAINTING</option>
+                  <option>METAL PAINTING</option>
+                  <option>MACHINE PAINTING</option>
+                  <option>OTHER PAINTING</option>
+                </select>
+                <div class="invalid-feedback">Please select a service.</div>
+              </div>
+              <div class="col-12">
+                <label class="form-label" for="message">Project Details</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Tell us your Projects." required></textarea>
+                <div class="invalid-feedback">Please share a few details about your project.</div>
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="agreeTerms" required>
+                  <label class="form-check-label small text-slate" for="agreeTerms">
+                    I agree to the <a href="#" class="text-primary-custom">Privacy Policy</a> and consent to being contacted about my inquiry.
+                  </label>
+                  <div class="invalid-feedback">You must agree before submitting.</div>
+                </div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary btn-lg-custom">Send Message <i class="bi bi-send ms-1"></i></button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="col-lg-5 reveal">
+          <div class="map-frame mb-4">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d244.82519538817695!2d76.95789735792836!3d10.94802334868468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85b42c7787605%3A0xc81d49e0bd989953!2sJN%20ENTERPRISES%20OFFICE!5e0!3m2!1sen!2sin!4v1787239326343!5m2!1sen!2sin" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Nexora office location map"></iframe>
+          </div>
+          <div class="widget bg-gradient-dark text-white border-0">
+            <div class="icon-box icon-box-white mb-3"><i class="bi bi-clock"></i></div>
+            <h5 class="text-white mb-3">Office Hours</h5>
+            <ul class="widget-link-list" style="--n-border: rgba(255,255,255,0.1);">
+              <li style="border-color: rgba(255,255,255,0.1); color:#fff;">Monday – Friday <span style="color:rgba(255,255,255,0.6);">9:00 AM – 6:00 PM</span></li>
+              <li style="border-color: rgba(255,255,255,0.1); color:#fff;">Saturday <span style="color:rgba(255,255,255,0.6);">10:00 AM – 2:00 PM</span></li>
+              <li style="border-color: rgba(255,255,255,0.1); color:#fff;">Sunday <span style="color:rgba(255,255,255,0.6);">Closed</span></li>
+            </ul>
+            <p class="text-white-50 small mt-3 mb-0">Indian Standard Time (IST).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  
+    </div>
+  </section>
+
+  <footer class="footer-nexora">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6">
+          <a class="navbar-brand-custom d-inline-block mb-3" href="index.html" style="color:#fff !important;">JNE<span style="color:var(--n-primary)">.</span></a>
+          
+          <div class="d-flex gap-2">
+            <a href="#" class="social-icon"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="social-icon"><i class="bi bi-dribbble"></i></a>
+            <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-6">
+          <h6>Company</h6>
+          <a href="about.html">About Us</a>
+          <a href="services.html">Services</a>
+          <a href="portfolio.html">Portfolio</a>
+          
+          <a href="contact.html">Careers</a>
+        </div>
+        <div class="col-lg-2 col-md-6 col-6">
+          <h6>Services</h6>
+          <a href="contact.html">INDUSTRIAL PAINTING</a>
+          <a href="contact.html">VALVE PAINTING</a>
+          <a href="contact.html">PUMP PAINTING</a>
+          <a href="contact.html">METAL PAINTING</a>
+          <a href="contact.html">MACHINE PAINTING</a>
+          <a href="contact.html">OTHER PAINTING</a>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <h6>Stay in the loop</h6>
+          <p class="text-white-50 mb-3">HIGH-QUALITY PAINTING SERVICES FOR INDUSTRIES.</p>
+          <form class="d-flex gap-2 needs-validation" novalidate>
+            <input type="email" class="form-control" placeholder="Work email" required style="background:rgba(255,255,255,0.06); border-color:rgba(255,255,255,0.12); color:#fff;">
+            <button class="btn btn-primary flex-shrink-0" type="submit"><i class="bi bi-send"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom d-flex flex-column flex-md-row justify-content-between align-items-center gap-2 text-center text-md-start">
+        <p class="mb-0" style="display: flex;">&copy; 2026 JNE. All rights reserved by <a target="_blank" href="" style="color: white;padding-left: 5px;">GODWIN JACINTH T</a> &bull; Distributed by <a target="_blank" href="" style="color: white;padding-left: 5px;">GJ</a></p>
+        <div class="d-flex gap-4">
+          <a href="#" class="mb-0">Privacy Policy</a>
+          <a href="#" class="mb-0">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
